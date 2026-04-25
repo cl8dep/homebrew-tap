@@ -7,10 +7,10 @@ class DnsSync < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cl8dep/dns-sync/releases/download/v0.6.1/dns-sync-darwin-arm64"
-      sha256 "8010b2324e55115101e35c32da750d56fb530d0d7a073254c52632d716cce6c5"
+      sha256 "7cba64c7cda6f5ae569157b3c6833af82773d3c6c0dda1025cbe1a97797285c2"
     else
       url "https://github.com/cl8dep/dns-sync/releases/download/v0.6.1/dns-sync-darwin-x64"
-      sha256 "6e8feacd91fafd0cb9b6eb2e9274149fe80f1eeec82b3c0af0ec417db4a519de"
+      sha256 "d1205a7aa7637dbd43339c864e5cc3a9e954bf52b9d5ba46c63da62a6b3570ef"
     end
   end
 
