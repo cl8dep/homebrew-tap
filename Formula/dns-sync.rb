@@ -1,16 +1,16 @@
 class DnsSync < Formula
   desc "DNS as code. Sync DNS zones across providers (Cloudflare, GCP Cloud DNS)"
   homepage "https://github.com/cl8dep/dns-sync"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cl8dep/dns-sync/releases/download/v0.6.1/dns-sync-darwin-arm64"
-      sha256 "2338ccbffe23130ef5c6cf5b78019c66ba66e9461884493771aa89395fd408a7"
+      url "https://github.com/cl8dep/dns-sync/releases/download/v0.6.2/dns-sync-darwin-arm64"
+      sha256 "c671832ae41073c2dc2d45e7757aa20b885de79fb9d3e0131cefd22856aba6a7"
     else
-      url "https://github.com/cl8dep/dns-sync/releases/download/v0.6.1/dns-sync-darwin-x64"
-      sha256 "7210468bd07e4fe8c6201867f5fc7a84cbfa11ac318425ff97508478dd9c5017"
+      url "https://github.com/cl8dep/dns-sync/releases/download/v0.6.2/dns-sync-darwin-x64"
+      sha256 "bea3ad92a8ae5398203f13558418813a17a206f24d3e2d3ac0a106f808566383"
     end
   end
 
